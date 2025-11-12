@@ -44,7 +44,7 @@ struct ContentView: View {
             Image(systemName: "heart.fill")
                 .font(.largeTitle)
                 .foregroundStyle(.tint)
-            Text("Swiftful Thinking Git & Source Control Tutorial!")
+            Text("Subscribe to us!")
             
             Button("This button still doesn't work!") {
                 // Subscribe button
