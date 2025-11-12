@@ -50,6 +50,10 @@ struct ContentView: View {
                 // Subscribe button
             }
             
+            Button("This is another nonfunctional button!") {
+                
+            }
+            
             Rectangle()
         }
         .padding()
