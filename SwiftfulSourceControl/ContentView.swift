@@ -40,6 +40,8 @@ struct ContentView: View {
             Button("Subscribe") {
                 // Subscribe button
             }
+            
+            Rectangle()
         }
         .padding()
     }
