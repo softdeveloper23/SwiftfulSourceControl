@@ -44,10 +44,18 @@ struct ContentView: View {
             ScrollView {
                 VStack {
                     ForEach(0..<20) { _ in
-                        Text("Hello, world!")
+                        Image(systemName: "globe")
+                            .font(.largeTitle)
+                            .foregroundStyle(.tint)
+                        Text("Some New Title!")
+                        
+                        Button("Click me!") {
+                            // Subscribe button
+                        }
                     }
                 }
             }
+            Rectangle()
         }
         .padding()
     }
