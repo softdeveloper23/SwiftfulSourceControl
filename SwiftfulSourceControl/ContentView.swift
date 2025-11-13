@@ -41,19 +41,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "house.fill")
+            Image(systemName: "globe")
                 .font(.largeTitle)
                 .foregroundStyle(.tint)
-            Text("Subscribe to us!")
+            Text("Some New Title!")
             
-            Button("This button still doesn't work!") {
+            Button("Click me!") {
                 // Subscribe button
             }
-            
-            Button("This is another nonfunctional button!") {
-                
-            }
-            
             Rectangle()
         }
         .padding()
